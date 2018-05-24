@@ -3,7 +3,13 @@ let cacheName = 'conhecendoServiceWorker';
 let filesToCache = [
     '/',
     'index.html',
-    'styles.css'
+    'styles.css',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-128x128.png',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-144x144.png',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-152x152.png',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-192x192.png',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-256x256.png',
+    'https://schoolofnetcom.github.io/pwa/img/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', function(e){
