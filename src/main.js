@@ -12,7 +12,7 @@ Vue.use(VueFire)
 
 // Initialize Firebase
 let config = {
-  apiKey: "AIzaSyADINCqKIm2FwtQFR-4-NoM18UDgxOh6sU",
+  apiKey: "",
   authDomain: "mypush-f0be2.firebaseapp.com",
   databaseURL: "https://mypush-f0be2.firebaseio.com",
   projectId: "mypush-f0be2",
